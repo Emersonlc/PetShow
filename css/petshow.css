@@ -1,0 +1,221 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+    height: 100%;
+    width: 100%;
+   
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+:focus {
+  outline: 0;
+}
+
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.header-1{
+    width: 100%;
+    height: 62px;
+    background-color: hsl(120, 100%, 49%);
+}
+main{
+    width: 980px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+#logo{
+    width: 70%;
+    float: left;
+}
+#sociais ul li{
+    display: inline;
+    float: right;
+    margin-top: 11px;
+    padding-left: 24px;
+    transition: 0.5s;
+}
+
+#sociais ul li:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.header-2{
+    border-bottom:2px solid rgb(182, 160, 160);
+    width: 100%;
+    height: 91px;
+    background-color: white; 
+}
+
+.topo-2{
+    width: 100%;   
+}
+#menu li{
+    display: inline-block;
+    float: left;
+    margin-right: 162px;
+    margin-top: 32px;
+    transition: 0.5s;
+}
+
+#menu li:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+
+}
+#li{
+    width: 0%;
+    padding-left: -10px;
+}
+#menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#menu ul li a:hover {
+    
+    text-decoration: none;
+    color: rgb(182, 160, 160);
+
+}
+#pesquisar{
+    width: 18%;
+    float: right;
+    margin-top: 25px;
+    
+}
+#pesquisar input{
+    background-image: url(../img/lupinha.1.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    float: right;
+    padding-left: 20px;
+    height: 30px;
+    padding-right: 28px;
+}
+#pesquisar a{
+    float: right;
+}
+.sobre{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+.sobre span p{
+    transition: 0.4s;
+    margin-top: 20px;
+}
+
+.sobre span :hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+    color:hsl(0, 0%, 41%);
+}
+
+#texto h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 12px;
+    color: hsl(0, 0%, 41%);
+}
+#texto p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.qs{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    background-color: hsl(180, 18%, 84%);
+    margin-top: 29px;
+    padding-bottom: 19px;
+}
+#quem h3{
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-bottom: 12px;
+    color: hsl(0, 0%, 41%);
+}
+#quem p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#fotos{
+    width: 100%;
+}
+#fotos ul {
+    padding-top: 15px;
+}
+#fotos ul li{
+    width: 30%;
+    display: inline;
+    padding: 12px;
+}
+
+#fotos img{
+    transition: 0.4s;
+}
+#fotos img:hover {
+ 
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+#topo{
+    width: 12%;
+}
+
+#topo a{
+    text-decoration: none;
+}
+#topo p{
+    color: hsl(240, 100%, 50%);
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.4s;
+}
+#topo p:hover{
+    text-decoration: none;
+    color: rgb(182, 160, 160);
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+
+
+
+
+
